@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041320C2502FC40B4C6841CA /* libPods-JXAutoScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C52ECCD599B3A39E84FE0E88 /* libPods-JXAutoScrollView.a */; };
+		129F5297202BA675E44AF326 /* libPods-JXAutoScrollViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC05F97E60AF5DCDBE8FDC8 /* libPods-JXAutoScrollViewUITests.a */; };
+		CF001BC143C94656752F18D4 /* libPods-JXAutoScrollViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5893E42422D1A1D782C6CCC /* libPods-JXAutoScrollViewTests.a */; };
 		D077DBED20613C860026BD0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D077DBEC20613C860026BD0D /* AppDelegate.m */; };
 		D077DBF020613C870026BD0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D077DBEF20613C870026BD0D /* ViewController.m */; };
 		D077DBF320613C870026BD0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D077DBF120613C870026BD0D /* Main.storyboard */; };
@@ -15,6 +18,12 @@
 		D077DBFB20613C870026BD0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D077DBFA20613C870026BD0D /* main.m */; };
 		D077DC0520613C870026BD0D /* JXAutoScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D077DC0420613C870026BD0D /* JXAutoScrollViewTests.m */; };
 		D077DC1020613C870026BD0D /* JXAutoScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D077DC0F20613C870026BD0D /* JXAutoScrollViewUITests.m */; };
+		D077DC2520613CEC0026BD0D /* JXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D077DC1D20613CE80026BD0D /* JXPageControl.m */; };
+		D077DC2620613CEC0026BD0D /* JXSquareAutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D077DC2020613CE90026BD0D /* JXSquareAutoScrollView.m */; };
+		D077DC2720613CEC0026BD0D /* JXSlideContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D077DC2220613CEB0026BD0D /* JXSlideContentCollectionViewCell.m */; };
+		D077DC2820613CEC0026BD0D /* JXInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D077DC2320613CEB0026BD0D /* JXInfiniteScrollView.m */; };
+		D077DC2D20613F650026BD0D /* UIImage+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D077DC2C20613F650026BD0D /* UIImage+Utilities.m */; };
+		D077DC33206140260026BD0D /* UIColor+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D077DC31206140250026BD0D /* UIColor+Utilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A432FB5B1F6B9B4CE1F8EB1 /* Pods-JXAutoScrollViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXAutoScrollViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXAutoScrollViewUITests/Pods-JXAutoScrollViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B0A806B36CE593776235362 /* Pods-JXAutoScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXAutoScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXAutoScrollView/Pods-JXAutoScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		2B6264E5D472DD866FF6BCD9 /* Pods-JXAutoScrollViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXAutoScrollViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXAutoScrollViewTests/Pods-JXAutoScrollViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		2EC05F97E60AF5DCDBE8FDC8 /* libPods-JXAutoScrollViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXAutoScrollViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A97BB3738EC5BA25BBE8D6 /* Pods-JXAutoScrollViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXAutoScrollViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXAutoScrollViewUITests/Pods-JXAutoScrollViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD3516E476456F38551FBBBC /* Pods-JXAutoScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXAutoScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXAutoScrollView/Pods-JXAutoScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		C52ECCD599B3A39E84FE0E88 /* libPods-JXAutoScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXAutoScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D077DBE820613C860026BD0D /* JXAutoScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXAutoScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D077DBEB20613C860026BD0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D077DBEC20613C860026BD0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +67,20 @@
 		D077DC0B20613C870026BD0D /* JXAutoScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXAutoScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D077DC0F20613C870026BD0D /* JXAutoScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXAutoScrollViewUITests.m; sourceTree = "<group>"; };
 		D077DC1120613C870026BD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D077DC1D20613CE80026BD0D /* JXPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPageControl.m; sourceTree = "<group>"; };
+		D077DC1E20613CE80026BD0D /* JXSquareAutoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSquareAutoScrollView.h; sourceTree = "<group>"; };
+		D077DC1F20613CE90026BD0D /* JXPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPageControl.h; sourceTree = "<group>"; };
+		D077DC2020613CE90026BD0D /* JXSquareAutoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSquareAutoScrollView.m; sourceTree = "<group>"; };
+		D077DC2120613CEA0026BD0D /* JXInfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXInfiniteScrollView.h; sourceTree = "<group>"; };
+		D077DC2220613CEB0026BD0D /* JXSlideContentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSlideContentCollectionViewCell.m; sourceTree = "<group>"; };
+		D077DC2320613CEB0026BD0D /* JXInfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXInfiniteScrollView.m; sourceTree = "<group>"; };
+		D077DC2420613CEB0026BD0D /* JXSlideContentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSlideContentCollectionViewCell.h; sourceTree = "<group>"; };
+		D077DC2B20613F640026BD0D /* UIImage+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utilities.h"; sourceTree = "<group>"; };
+		D077DC2C20613F650026BD0D /* UIImage+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utilities.m"; sourceTree = "<group>"; };
+		D077DC31206140250026BD0D /* UIColor+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utilities.m"; sourceTree = "<group>"; };
+		D077DC32206140250026BD0D /* UIColor+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utilities.h"; sourceTree = "<group>"; };
+		D5893E42422D1A1D782C6CCC /* libPods-JXAutoScrollViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXAutoScrollViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82FCD3C83C2AAEC31F76796 /* Pods-JXAutoScrollViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXAutoScrollViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXAutoScrollViewTests/Pods-JXAutoScrollViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041320C2502FC40B4C6841CA /* libPods-JXAutoScrollView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF001BC143C94656752F18D4 /* libPods-JXAutoScrollViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +104,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129F5297202BA675E44AF326 /* libPods-JXAutoScrollViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		196717C0DF8B1F4EF2366E72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B0A806B36CE593776235362 /* Pods-JXAutoScrollView.debug.xcconfig */,
+				AD3516E476456F38551FBBBC /* Pods-JXAutoScrollView.release.xcconfig */,
+				D82FCD3C83C2AAEC31F76796 /* Pods-JXAutoScrollViewTests.debug.xcconfig */,
+				2B6264E5D472DD866FF6BCD9 /* Pods-JXAutoScrollViewTests.release.xcconfig */,
+				57A97BB3738EC5BA25BBE8D6 /* Pods-JXAutoScrollViewUITests.debug.xcconfig */,
+				2A432FB5B1F6B9B4CE1F8EB1 /* Pods-JXAutoScrollViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A912B5B7E977870D717F6541 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C52ECCD599B3A39E84FE0E88 /* libPods-JXAutoScrollView.a */,
+				D5893E42422D1A1D782C6CCC /* libPods-JXAutoScrollViewTests.a */,
+				2EC05F97E60AF5DCDBE8FDC8 /* libPods-JXAutoScrollViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D077DBDF20613C860026BD0D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +141,8 @@
 				D077DC0320613C870026BD0D /* JXAutoScrollViewTests */,
 				D077DC0E20613C870026BD0D /* JXAutoScrollViewUITests */,
 				D077DBE920613C860026BD0D /* Products */,
+				196717C0DF8B1F4EF2366E72 /* Pods */,
+				A912B5B7E977870D717F6541 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +159,7 @@
 		D077DBEA20613C860026BD0D /* JXAutoScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				D077DC2920613D4D0026BD0D /* AutoScrollView */,
 				D077DBEB20613C860026BD0D /* AppDelegate.h */,
 				D077DBEC20613C860026BD0D /* AppDelegate.m */,
 				D077DBEE20613C860026BD0D /* ViewController.h */,
@@ -132,6 +191,33 @@
 			path = JXAutoScrollViewUITests;
 			sourceTree = "<group>";
 		};
+		D077DC2920613D4D0026BD0D /* AutoScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D077DC2A20613F460026BD0D /* Utiles */,
+				D077DC2120613CEA0026BD0D /* JXInfiniteScrollView.h */,
+				D077DC2320613CEB0026BD0D /* JXInfiniteScrollView.m */,
+				D077DC1F20613CE90026BD0D /* JXPageControl.h */,
+				D077DC1D20613CE80026BD0D /* JXPageControl.m */,
+				D077DC2420613CEB0026BD0D /* JXSlideContentCollectionViewCell.h */,
+				D077DC2220613CEB0026BD0D /* JXSlideContentCollectionViewCell.m */,
+				D077DC1E20613CE80026BD0D /* JXSquareAutoScrollView.h */,
+				D077DC2020613CE90026BD0D /* JXSquareAutoScrollView.m */,
+			);
+			path = AutoScrollView;
+			sourceTree = "<group>";
+		};
+		D077DC2A20613F460026BD0D /* Utiles */ = {
+			isa = PBXGroup;
+			children = (
+				D077DC32206140250026BD0D /* UIColor+Utilities.h */,
+				D077DC31206140250026BD0D /* UIColor+Utilities.m */,
+				D077DC2B20613F640026BD0D /* UIImage+Utilities.h */,
+				D077DC2C20613F650026BD0D /* UIImage+Utilities.m */,
+			);
+			path = Utiles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D077DC1420613C870026BD0D /* Build configuration list for PBXNativeTarget "JXAutoScrollView" */;
 			buildPhases = (
+				FBA89B12D38989221D69C716 /* [CP] Check Pods Manifest.lock */,
 				D077DBE420613C860026BD0D /* Sources */,
 				D077DBE520613C860026BD0D /* Frameworks */,
 				D077DBE620613C860026BD0D /* Resources */,
+				FF5A367FF3D88E887950FE3B /* [CP] Embed Pods Frameworks */,
+				4B342F1CE098CAE437E25AFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D077DC1720613C870026BD0D /* Build configuration list for PBXNativeTarget "JXAutoScrollViewTests" */;
 			buildPhases = (
+				582D3C31AEABA8BC59D17F0F /* [CP] Check Pods Manifest.lock */,
 				D077DBFC20613C870026BD0D /* Sources */,
 				D077DBFD20613C870026BD0D /* Frameworks */,
 				D077DBFE20613C870026BD0D /* Resources */,
+				1036632B24E28265932D6E2F /* [CP] Embed Pods Frameworks */,
+				03FA039506CD311E37D48B40 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D077DC1A20613C870026BD0D /* Build configuration list for PBXNativeTarget "JXAutoScrollViewUITests" */;
 			buildPhases = (
+				377CB153CEFF63F70405805D /* [CP] Check Pods Manifest.lock */,
 				D077DC0720613C870026BD0D /* Sources */,
 				D077DC0820613C870026BD0D /* Frameworks */,
 				D077DC0920613C870026BD0D /* Resources */,
+				C85B903EE8CB6E541E024532 /* [CP] Embed Pods Frameworks */,
+				CDD8350E66701B7A9FAC6F38 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +355,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03FA039506CD311E37D48B40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JXAutoScrollViewTests/Pods-JXAutoScrollViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1036632B24E28265932D6E2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JXAutoScrollViewTests/Pods-JXAutoScrollViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		377CB153CEFF63F70405805D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXAutoScrollViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B342F1CE098CAE437E25AFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JXAutoScrollView/Pods-JXAutoScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		582D3C31AEABA8BC59D17F0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXAutoScrollViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C85B903EE8CB6E541E024532 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JXAutoScrollViewUITests/Pods-JXAutoScrollViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDD8350E66701B7A9FAC6F38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JXAutoScrollViewUITests/Pods-JXAutoScrollViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBA89B12D38989221D69C716 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXAutoScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF5A367FF3D88E887950FE3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JXAutoScrollView/Pods-JXAutoScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D077DBE420613C860026BD0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D077DBF020613C870026BD0D /* ViewController.m in Sources */,
+				D077DC2720613CEC0026BD0D /* JXSlideContentCollectionViewCell.m in Sources */,
+				D077DC2520613CEC0026BD0D /* JXPageControl.m in Sources */,
 				D077DBFB20613C870026BD0D /* main.m in Sources */,
+				D077DC2620613CEC0026BD0D /* JXSquareAutoScrollView.m in Sources */,
 				D077DBED20613C860026BD0D /* AppDelegate.m in Sources */,
+				D077DC2D20613F650026BD0D /* UIImage+Utilities.m in Sources */,
+				D077DC33206140260026BD0D /* UIColor+Utilities.m in Sources */,
+				D077DC2820613CEC0026BD0D /* JXInfiniteScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +676,7 @@
 		};
 		D077DC1520613C870026BD0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B0A806B36CE593776235362 /* Pods-JXAutoScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +691,7 @@
 		};
 		D077DC1620613C870026BD0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3516E476456F38551FBBBC /* Pods-JXAutoScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +706,7 @@
 		};
 		D077DC1820613C870026BD0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D82FCD3C83C2AAEC31F76796 /* Pods-JXAutoScrollViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +722,7 @@
 		};
 		D077DC1920613C870026BD0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6264E5D472DD866FF6BCD9 /* Pods-JXAutoScrollViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +738,7 @@
 		};
 		D077DC1B20613C870026BD0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A97BB3738EC5BA25BBE8D6 /* Pods-JXAutoScrollViewUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7CA89CVK8A;
@@ -500,6 +753,7 @@
 		};
 		D077DC1C20613C870026BD0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A432FB5B1F6B9B4CE1F8EB1 /* Pods-JXAutoScrollViewUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7CA89CVK8A;
