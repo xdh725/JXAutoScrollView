@@ -3,7 +3,7 @@
 //
 //
 //  Created by 谢东华 on 2017/11/7.
-//  Copyright © 2017年 HuaZhongShiXun. All rights reserved.
+//  Copyright © 2018年 谢东华. All rights reserved.
 //
 
 #import "JXPageControl.h"
